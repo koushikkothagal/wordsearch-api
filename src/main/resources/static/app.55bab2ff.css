@@ -1,0 +1,21 @@
+* {
+  font-family: sans-serif;
+}
+
+.grid-area {
+  margin-top: 30px;
+}
+.grid-area table {
+  max-width: 700px;
+  margin: auto;
+  user-select: none;
+}
+.grid-area table td {
+  width: 20px;
+  height: 20px;
+}
+.grid-area table td.selected {
+  color: #ca5018;
+}
+
+/*# sourceMappingURL=/app.55bab2ff.css.map */
