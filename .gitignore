@@ -1,8 +1,17 @@
 HELP.md
+.DS_Store
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+
+### UI code artifacts ###
+wordsearch-ui/node_modules/**
+wordsearch-ui/src/dist/**
+wordsearch-ui/dist/**
+wordsearch-ui/src/.cache/**
+wordsearch-ui/.cache/**
+
 
 ### STS ###
 .apt_generated
