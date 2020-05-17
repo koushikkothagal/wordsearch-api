@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+
+}
+    
+.grid-area {
+    margin-top: 30px;
+    table {
+        max-width: 700px;
+        margin: auto;
+        user-select: none;
+        td {
+            width: 20px;
+            height: 20px;
+            &.selected {
+                color: rgb(202, 80, 24);
+            }
+        }
+
+    }
+}
+
